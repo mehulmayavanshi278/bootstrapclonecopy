@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.secondImg , .firstimage , .forthImg{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+.navbar{
+  width: 100%;
+  margin: 0;
+  position: sticky;
+  top: 0%;
+  z-index: 100;
+  padding: 4vh 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: 0.7s ease-in-out;
+}
+li{
+  list-style: none;
+}
+.content ul li{
+  list-style: circle !important;
+}
+a{
+  text-decoration: none;
+}
+.myImg{
+  width: 13vh;
+  height: 13vh;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+}
+.sideBar , .sideBarImg{
+  position: sticky;
+  top: 15vh;
+}
+ul li{
+  overflow: hidden;
+  padding: 2vh 0;
+}
+@media(min-width:1000px){
+.h4{
+  position: sticky;
+  top: 52vh;
+}
+
+}
+.imagebar{
+
+  transition: 1s ease-in-out;
+  height: 7vh;
+}
+@media(max-width:1000px){
+ .navitems1{
+  display: none;
+  transition: 1s ease-in-out;
+ }
+}
